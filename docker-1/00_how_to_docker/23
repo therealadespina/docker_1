@@ -1,0 +1,5 @@
+#!/bin/sh
+#Create an overlay-type internal network that you will name overmind.
+docker network create -d overlay overmind
+#-d, --driver string — Driver to manage the Network (default "bridge").
+#Check this docker network ls
