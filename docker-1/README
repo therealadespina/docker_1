@@ -1,3 +1,4 @@
+** Docker-1
 docker-machine create --driver virtualbox Char
 docker-machine stop Char
 cp -R ~/.docker "goinfre/"$USER""_docker/""
